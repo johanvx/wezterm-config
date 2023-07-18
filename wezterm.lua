@@ -19,66 +19,26 @@ if wezterm.gui then
   })
 end
 
--- Modify Dracula colorscheme
-local dracula = wezterm.color.get_builtin_schemes()["Dracula (Official)"]
-dracula.background = "#22212c"
-dracula.foreground = "#f8f8f2"
-dracula.ansi = {
-  "#21222c",
-  "#ff5555",
-  "#8aff80",
-  "#ffff80",
-  "#9580ff",
-  "#ff80bf",
-  "#80ffea",
-  "#f8f8f2",
-}
-dracula.compose_cursor = "#ff9580"
-
 return {
+  -- Opacity and blur
+  window_background_opacity = 0.85,
+  macos_window_background_blur = 15,
   -- UI
-  color_schemes = {
-    ["Dracula (Modified)"] = dracula,
-  },
-  color_scheme = "Dracula (Modified)",
+  adjust_window_size_when_changing_font_size = false,
+  color_scheme = "Kagayaku",
   hide_tab_bar_if_only_one_tab = true,
+  tab_bar_at_bottom = true,
   use_fancy_tab_bar = false,
-  colors = {
-    tab_bar = {
-      background = dracula.background,
-      active_tab = {
-        bg_color = dracula.background,
-        fg_color = dracula.foreground,
-        intensity = "Bold",
-        italic = true,
-        underline = "Single",
-      },
-      inactive_tab = {
-        bg_color = dracula.background,
-        fg_color = dracula.foreground,
-      },
-      inactive_tab_hover = {
-        bg_color = dracula.background,
-        fg_color = dracula.foreground,
-        intensity = "Bold",
-      },
-      new_tab = {
-        bg_color = dracula.background,
-        fg_color = dracula.foreground,
-      },
-      new_tab_hover = {
-        bg_color = dracula.background,
-        fg_color = dracula.foreground,
-        intensity = "Bold",
-      },
-    },
-  },
   tab_max_width = 40,
-  font = wezterm.font_with_fallback({ "Hack Nerd Font", "Sarasa Mono SC" }),
+  font = wezterm.font_with_fallback({
+    "SF Mono",
+    "Symbols Nerd Font",
+    "Noto Sans CJK SC",
+  }),
   font_size = 16,
   window_decorations = "RESIZE",
   -- Key map
-  leader = { key = "g", mods = "CTRL", timeout_milliseconds = 1000 },
+  leader = { key = "'", mods = "CTRL", timeout_milliseconds = 1000 },
   keys = {
     {
       key = "c",
