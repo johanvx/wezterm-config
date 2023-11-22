@@ -35,7 +35,7 @@ return {
     "Symbols Nerd Font",
     "Noto Sans CJK SC",
   }),
-  font_size = 16,
+  font_size = 24,
   window_decorations = "RESIZE",
   -- Key map
   leader = { key = "'", mods = "CTRL", timeout_milliseconds = 1000 },
