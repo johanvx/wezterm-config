@@ -20,14 +20,9 @@ if wezterm.gui then
 end
 
 return {
-  -- Opacity and blur
-  window_background_opacity = 0.85,
-  macos_window_background_blur = 15,
   -- UI
   adjust_window_size_when_changing_font_size = false,
   color_scheme = "Kagayaku",
-  hide_tab_bar_if_only_one_tab = true,
-  tab_bar_at_bottom = true,
   use_fancy_tab_bar = false,
   tab_max_width = 40,
   font = wezterm.font_with_fallback({
@@ -35,8 +30,8 @@ return {
     "Symbols Nerd Font",
     "Noto Sans CJK SC",
   }),
-  font_size = 24,
-  window_decorations = "RESIZE",
+  font_size = 20,
+  window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   -- Key map
   leader = { key = "'", mods = "CTRL", timeout_milliseconds = 1000 },
   keys = {
