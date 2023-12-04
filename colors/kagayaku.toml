@@ -6,7 +6,7 @@ ansi = [
   '#f43f5e', # red, rose.500
   '#2dd4bf', # green, teal.400
   '#fcd34d', # yellow, amber.300
-  '#818cf8', # blue, indigo.400
+  '#3b82f6', # blue, blue.500
   '#f472b6', # magenta, pink.400
   '#38bdf8', # cyan, sky.400
   '#94a3b8', # white, slate.400
@@ -17,7 +17,7 @@ brights = [
   '#fb7185', # brred, rose.400
   '#5eead4', # brgreen, teal.300
   '#fde68a', # bryellow, amber.200
-  '#a5b4fc', # brblue, indigo.300
+  '#60a5fa', # brblue, blue.400
   '#f9a8d4', # brmagenta, pink.300
   '#7dd3fc', # brcyan, sky.300
   '#f8fafc', # brwhite, slate.50
