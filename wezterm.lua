@@ -26,11 +26,12 @@ return {
   use_fancy_tab_bar = false,
   tab_max_width = 40,
   font = wezterm.font_with_fallback({
+    "Monaspace Neon",
     "SF Mono",
     "Symbols Nerd Font",
     "Noto Sans CJK SC",
   }),
-  font_size = 20,
+  font_size = 24,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   -- Key map
   leader = { key = "'", mods = "CTRL", timeout_milliseconds = 1000 },
