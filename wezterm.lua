@@ -34,7 +34,7 @@ return {
   font_size = 24,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   -- Key map
-  leader = { key = "'", mods = "CTRL", timeout_milliseconds = 1000 },
+  leader = { key = "Enter", mods = "CTRL", timeout_milliseconds = 1000 },
   keys = {
     {
       key = "c",
@@ -56,5 +56,3 @@ return {
     copy_mode = copy_mode,
   },
 }
-
--- vim:sw=2:ts=2:sts=2:et:tw=80:norl:
