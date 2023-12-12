@@ -19,18 +19,19 @@ if wezterm.gui then
   })
 end
 
+local mono_font = wezterm.font_with_fallback({
+  "Monaspace Neon",
+  "Symbols Nerd Font",
+  "Noto Sans CJK SC",
+})
+
 return {
   -- UI
   adjust_window_size_when_changing_font_size = false,
-  color_scheme = "Kagayaku",
+  color_scheme = "Matataki",
   use_fancy_tab_bar = false,
   tab_max_width = 40,
-  font = wezterm.font_with_fallback({
-    "Monaspace Neon",
-    "SF Mono",
-    "Symbols Nerd Font",
-    "Noto Sans CJK SC",
-  }),
+  font = mono_font,
   font_size = 24,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   -- Key map

@@ -29,7 +29,7 @@ cursor_fg = '#0f172a'
 foreground = '#f8fafc'
 scrollbar_thumb = '#334155'
 selection_bg = 'rgba(49% 82.7% 98.8% 15%)' # sky.300 15%
-selection_fg = 'rgba(0% 0% 0% 0%)'
+selection_fg = 'none'
 split = '#94a3b8'
 
 [colors.indexed]
@@ -80,5 +80,5 @@ underline = 'None'
 [metadata]
 aliases = []
 author = "johanvx"
-name = "Kagayaku"
+name = "Matataki"
 origin_url = "https://github.com/johanvx/wezterm-config"
