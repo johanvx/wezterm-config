@@ -28,11 +28,12 @@ local mono_font = wezterm.font_with_fallback({
 return {
   -- UI
   adjust_window_size_when_changing_font_size = false,
-  color_scheme = "Matataki",
-  use_fancy_tab_bar = false,
-  tab_max_width = 40,
+  color_scheme = "Matataki", -- or "Kagayaki" if in light mode
+  enable_scroll_bar = true,
   font = mono_font,
   font_size = 24,
+  tab_max_width = 40,
+  use_fancy_tab_bar = false,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   -- Key map
   leader = { key = "Enter", mods = "CTRL", timeout_milliseconds = 1000 },

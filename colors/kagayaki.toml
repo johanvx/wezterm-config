@@ -1,0 +1,84 @@
+# Use TailwindCSS default color palette
+
+[colors]
+ansi = [
+  '#f1f5f9', # black, slate.100
+  '#e11d48', # red, rose.600
+  '#14b8a6', # green, teal.500
+  '#fbbf24', # yellow, amber.400
+  '#2563eb', # blue, blue.600
+  '#ec4899', # magenta, pink.500
+  '#0ea5e9', # cyan, sky.500
+  '#475569', # white, slate.600
+]
+background = '#f1f5f9' # brwhite, slate.100
+brights = [
+  '#94a3b8', # brblack, slate.400
+  '#f43f5e', # brred, rose.500
+  '#2dd4bf', # brgreen, teal.400
+  '#fcd34d', # bryellow, amber.300
+  '#3b82f6', # brblue, blue.500
+  '#f472b6', # brmagenta, pink.400
+  '#38bdf8', # brcyan, sky.400
+  '#0f172a', # brwhite, slate.900
+]
+compose_cursor = '#2563eb' # blue, blue.600
+cursor_bg = '#0f172a' # brwhite, slate.900
+cursor_border = '#0f172a' # brwhite, slate.900
+cursor_fg = '#f1f5f9' # black, slate.100
+foreground = '#475569' # white, slate.600
+scrollbar_thumb = '#cbd5e1' # slate.300
+selection_bg = 'rgba(22% 74% 97% 15%)' # brcyan, sky.400 15%
+selection_fg = 'none'
+split = '#475569' # white, slate.600
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#e2e8f0' # slate.200
+
+[colors.tab_bar.active_tab]
+bg_color = '#f1f5f9' # black, slate.100
+fg_color = '#0ea5e9' # cyan, sky.500
+intensity = 'Bold'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#e2e8f0' # slate.200
+fg_color = '#94a3b8' # brblack, slate.400
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#cbd5e1' # slate.300
+fg_color = '#475569' # white, slate.600
+intensity = 'Bold'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#e2e8f0' # slate.200
+fg_color = '#94a3b8' # brblack, slate.400
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#cbd5e1' # slate.300
+fg_color = '#475569' # white, slate.600
+intensity = 'Bold'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = "johanvx"
+name = "Kagayaki"
+origin_url = "https://github.com/johanvx/wezterm-config"
