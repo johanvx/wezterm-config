@@ -39,7 +39,7 @@ return {
   leader = { key = "Enter", mods = "CTRL", timeout_milliseconds = 1000 },
   keys = {
     {
-      key = "c",
+      key = "y",
       mods = "LEADER",
       action = act.ActivateCopyMode,
     },
@@ -52,6 +52,21 @@ return {
       key = "s",
       mods = "LEADER",
       action = act.QuickSelect,
+    },
+    {
+      key = "n",
+      mods = "LEADER",
+      action = act.PaneSelect,
+    },
+    {
+      key = "%",
+      mods = "LEADER",
+      action = act.SplitHorizontal,
+    },
+    {
+      key = '"',
+      mods = "LEADER",
+      action = act.SplitVertical,
     },
   },
   key_tables = {
