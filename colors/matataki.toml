@@ -5,7 +5,7 @@ ansi = [
   '#0f172a', # black, slate.900
   '#f43f5e', # red, rose.500
   '#2dd4bf', # green, teal.400
-  '#fcd34d', # yellow, amber.300
+  '#fbbf24', # yellow, amber.400
   '#3b82f6', # blue, blue.500
   '#f472b6', # magenta, pink.400
   '#38bdf8', # cyan, sky.400
@@ -16,7 +16,7 @@ brights = [
   '#475569', # brblack, slate.600
   '#fb7185', # brred, rose.400
   '#5eead4', # brgreen, teal.300
-  '#fde68a', # bryellow, amber.200
+  '#fcd34d', # bryellow, amber.300
   '#60a5fa', # brblue, blue.400
   '#f9a8d4', # brmagenta, pink.300
   '#7dd3fc', # brcyan, sky.300
@@ -38,40 +38,40 @@ split = '#94a3b8' # white, slate.400
 background = '#1e293b' # slate.800
 
 [colors.tab_bar.active_tab]
-bg_color = '#0f172a' # black, slate.900
-fg_color = '#38bdf8' # cyan, sky.400
+bg_color = '#0f172a'  # black, slate.900
+fg_color = '#38bdf8'  # cyan, sky.400
 intensity = 'Bold'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab]
-bg_color = '#1e293b' # slate.800
-fg_color = '#475569' # brblack, slate.600
+bg_color = '#1e293b'  # slate.800
+fg_color = '#475569'  # brblack, slate.600
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = '#334155' # slate.700
-fg_color = '#94a3b8' # white, slate.400
+bg_color = '#334155'  # slate.700
+fg_color = '#94a3b8'  # white, slate.400
 intensity = 'Bold'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab]
-bg_color = '#1e293b' # slate.800
-fg_color = '#475569' # brblack, slate.600
+bg_color = '#1e293b'  # slate.800
+fg_color = '#475569'  # brblack, slate.600
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab_hover]
-bg_color = '#334155' # slate.700
-fg_color = '#94a3b8' # white, slate.400
+bg_color = '#334155'  # slate.700
+fg_color = '#94a3b8'  # white, slate.400
 intensity = 'Bold'
 italic = false
 strikethrough = false
