@@ -31,7 +31,7 @@ return {
   color_scheme = "Matataki", -- or "Kagayaki" if in light mode
   enable_scroll_bar = true,
   font = mono_font,
-  font_size = 24,
+  font_size = 20,
   tab_max_width = 40,
   use_fancy_tab_bar = false,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
