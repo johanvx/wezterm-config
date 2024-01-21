@@ -5,32 +5,32 @@ ansi = [
   '#0f172a', # black, slate.900
   '#f43f5e', # red, rose.500
   '#2dd4bf', # green, teal.400
-  '#fbbf24', # yellow, amber.400
-  '#3b82f6', # blue, blue.500
+  '#facc15', # yellow, yellow.400
+  '#38bdf8', # blue, sky.400
   '#f472b6', # magenta, pink.400
-  '#38bdf8', # cyan, sky.400
-  '#94a3b8', # white, slate.400
+  '#67e8f9', # cyan, cyan.300
+  '#cbd5e1', # white, slate.300
 ]
 background = '#0f172a' # black, slate.900
 brights = [
-  '#475569', # brblack, slate.600
+  '#64748b', # brblack, slate.500
   '#fb7185', # brred, rose.400
   '#5eead4', # brgreen, teal.300
-  '#fcd34d', # bryellow, amber.300
-  '#60a5fa', # brblue, blue.400
+  '#fde047', # bryellow, yellow.300
+  '#7dd3fc', # brblue, sky.300
   '#f9a8d4', # brmagenta, pink.300
-  '#7dd3fc', # brcyan, sky.300
+  '#a5f3fc', # brcyan, cyan.200
   '#f1f5f9', # brwhite, slate.100
 ]
-compose_cursor = '#3b82f6' # blue, blue.500
+compose_cursor = '#38bdf8' # blue, sky.400
 cursor_bg = '#f1f5f9' # brwhite, slate.100
 cursor_border = '#f1f5f9' # brwhite, slate.100
 cursor_fg = '#0f172a' # black, slate.900
-foreground = '#94a3b8' # white, slate.400
+foreground = '#cbd5e1' # white, slate.300
 scrollbar_thumb = '#334155' # slate.700
 selection_bg = 'rgba(49% 83% 99% 15%)' # brcyan, sky.300 15%
 selection_fg = 'none'
-split = '#94a3b8' # white, slate.400
+split = '#cbd5e1' # white, slate.300
 
 [colors.indexed]
 
@@ -47,7 +47,7 @@ underline = 'None'
 
 [colors.tab_bar.inactive_tab]
 bg_color = '#1e293b'  # slate.800
-fg_color = '#475569'  # brblack, slate.600
+fg_color = '#64748b'  # brblack, slate.500
 intensity = 'Normal'
 italic = false
 strikethrough = false
@@ -55,7 +55,7 @@ underline = 'None'
 
 [colors.tab_bar.inactive_tab_hover]
 bg_color = '#334155'  # slate.700
-fg_color = '#94a3b8'  # white, slate.400
+fg_color = '#cbd5e1'  # white, slate.300
 intensity = 'Bold'
 italic = false
 strikethrough = false
@@ -63,7 +63,7 @@ underline = 'None'
 
 [colors.tab_bar.new_tab]
 bg_color = '#1e293b'  # slate.800
-fg_color = '#475569'  # brblack, slate.600
+fg_color = '#64748b'  # brblack, slate.500
 intensity = 'Normal'
 italic = false
 strikethrough = false
@@ -71,7 +71,7 @@ underline = 'None'
 
 [colors.tab_bar.new_tab_hover]
 bg_color = '#334155'  # slate.700
-fg_color = '#94a3b8'  # white, slate.400
+fg_color = '#cbd5e1'  # white, slate.300
 intensity = 'Bold'
 italic = false
 strikethrough = false
