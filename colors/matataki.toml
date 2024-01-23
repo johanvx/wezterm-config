@@ -39,7 +39,7 @@ background = '#1e293b' # slate.800
 
 [colors.tab_bar.active_tab]
 bg_color = '#0f172a'  # black, slate.900
-fg_color = '#38bdf8'  # cyan, sky.400
+fg_color = '#cbd5e1'  # white, slate.300
 intensity = 'Bold'
 italic = false
 strikethrough = false
