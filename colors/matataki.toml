@@ -28,7 +28,7 @@ cursor_border = '#f1f5f9' # brwhite, slate.100
 cursor_fg = '#0f172a' # black, slate.900
 foreground = '#cbd5e1' # white, slate.300
 scrollbar_thumb = '#334155' # slate.700
-selection_bg = 'rgba(49% 83% 99% 15%)' # brcyan, sky.300 15%
+selection_bg = '#083344' # cyan.900
 selection_fg = 'none'
 split = '#cbd5e1' # white, slate.300
 
