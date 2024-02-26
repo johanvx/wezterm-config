@@ -6,7 +6,7 @@ ansi = [
   '#f43f5e', # red, rose.500
   '#2dd4bf', # green, teal.400
   '#facc15', # yellow, yellow.400
-  '#38bdf8', # blue, sky.400
+  '#60a5fa', # blue, blue.400
   '#f472b6', # magenta, pink.400
   '#67e8f9', # cyan, cyan.300
   '#cbd5e1', # white, slate.300
@@ -17,12 +17,12 @@ brights = [
   '#fb7185', # brred, rose.400
   '#5eead4', # brgreen, teal.300
   '#fde047', # bryellow, yellow.300
-  '#7dd3fc', # brblue, sky.300
+  '#93c5fd', # brblue, blue.300
   '#f9a8d4', # brmagenta, pink.300
   '#a5f3fc', # brcyan, cyan.200
   '#f1f5f9', # brwhite, slate.100
 ]
-compose_cursor = '#38bdf8' # blue, sky.400
+compose_cursor = '#60a5fa' # blue, blue.400
 cursor_bg = '#f1f5f9' # brwhite, slate.100
 cursor_border = '#f1f5f9' # brwhite, slate.100
 cursor_fg = '#0f172a' # black, slate.900

@@ -4,31 +4,31 @@
 ansi = [
   '#f1f5f9', # black, slate.100
   '#e11d48', # red, rose.600
-  '#14b8a6', # green, teal.500
-  '#f59e0b', # yellow, amber.500
-  '#3b82f6', # blue, blue.500
+  '#0d9488', # green, teal.600
+  '#a16207', # yellow, yellow.700
+  '#2563eb', # blue, blue.600
   '#ec4899', # magenta, pink.500
-  '#0ea5e9', # cyan, sky.500
-  '#475569', # white, slate.600
+  '#0891b2', # cyan, cyan.600
+  '#334155', # white, slate.700
 ]
 background = '#f1f5f9' # brwhite, slate.100
 brights = [
-  '#94a3b8', # brblack, slate.400
+  '#64748b', # brblack, slate.500
   '#f43f5e', # brred, rose.500
-  '#2dd4bf', # brgreen, teal.400
-  '#fbbf24', # bryellow, amber.400
-  '#60a5fa', # brblue, blue.400
+  '#14b8a6', # brgreen, teal.500
+  '#ca8a04', # bryellow, yellow.600
+  '#3b82f6', # brblue, blue.500
   '#f472b6', # brmagenta, pink.400
-  '#38bdf8', # brcyan, sky.400
+  '#06b6d4', # brcyan, cyan.500
   '#0f172a', # brwhite, slate.900
 ]
-compose_cursor = '#3b82f6' # blue, blue.500
+compose_cursor = '#2563eb' # blue, blue.600
 cursor_bg = '#0f172a' # brwhite, slate.900
 cursor_border = '#0f172a' # brwhite, slate.900
 cursor_fg = '#f1f5f9' # black, slate.100
-foreground = '#475569' # white, slate.600
+foreground = '#334155' # white, slate.700
 scrollbar_thumb = '#cbd5e1' # slate.300
-selection_bg = 'rgba(22% 74% 97% 15%)' # brcyan, sky.400 15%
+selection_bg = '#cffafe' # cyan.100
 selection_fg = 'none'
 split = '#475569' # white, slate.600
 
