@@ -58,7 +58,7 @@ return {
   font = selected_font,
   font_size = 20,
   tab_max_width = 40,
-  use_fancy_tab_bar = false,
+  use_fancy_tab_bar = true,
   window_decorations = "INTEGRATED_BUTTONS|RESIZE",
   window_padding = { top = 0, bottom = 0, left = 8 },
   -- Key map
