@@ -22,6 +22,7 @@ end
 local font_table = {
   normal = { "Monaspace Neon", "Noto Sans CJK SC", "Symbols Nerd Font" },
   pixel = {
+    -- "Doto",
     "Departure Mono",
     -- "Ark Pixel 12px Proportional zh_cn",
     "Unifont",
@@ -54,7 +55,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.color_scheme = color_scheme
 config.enable_scroll_bar = true
 config.font = selected_font
-config.font_size = 20
+config.font_size = 16
 config.tab_max_width = 40
 config.use_fancy_tab_bar = true
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
