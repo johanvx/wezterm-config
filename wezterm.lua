@@ -20,7 +20,12 @@ end
 
 -- Font settings
 local font_table = {
-  normal = { "Monaspace Neon", "Noto Sans CJK SC", "Symbols Nerd Font" },
+  normal = {
+    "Google Sans Code",
+    "Monaspace Neon",
+    "Noto Sans CJK SC",
+    "Symbols Nerd Font",
+  },
   pixel = {
     -- "Doto",
     "Departure Mono",
@@ -29,7 +34,7 @@ local font_table = {
     "Symbols Nerd Font",
   },
 }
-local selected_font = wezterm.font_with_fallback(font_table.pixel)
+local selected_font = wezterm.font_with_fallback(font_table.normal)
 
 -- wezterm.gui is not available to the mux server, so take care to
 -- do something reasonable when this config is evaluated by the mux
